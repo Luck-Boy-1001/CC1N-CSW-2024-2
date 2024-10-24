@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 16 - Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="mailto:ariondantas027@gmail.com" method="post">
+        <label for="nome-usuario">Nome:</label>
+        <input type="text" name="nome-usuario" id="nome-usuario" size="40" maxlength="30" value="" placeholder="Digite seu nome">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" size="40" maxlength="30" value="" placeholder="Digite seu email">
+
+        <br><br><br>
+
+        <label for="comentario">Deixe um comentário:</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="50" rows="10" placeholder="Escreva aqui um comentário"></textarea>
+
+        <br><br><br>
+        
+        <label for="nome-usuario">Nome:</label>
+        <input type="text" name="nome-usuario" id="nome-usuario" size="40" maxlength="30" value="" placeholder="Digite seu nome">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" size="40" maxlength="30" value="" placeholder="Digite seu email">
+
+        <br><br><br>
+
+        <input type="checkbox" name="checkbox-opcao1" id="checkbox-opcao1" value="opcao1"> Opção nº1 <br>
+        <input type="checkbox" name="checkbox-opcao2" id="checkbox-opcao2" value="opcao2"> Opção nº2 <br>
+        <input type="checkbox" name="checkbox-opcao3" id="checkbox-opcao3" value="opcao3"> Opção nº3 <br>
+
+        <br><br><br>
+
+        Opção nº1 <input type="radio" name="radio-opcao" id="radio-opcao1" value="opcao1"> <br>
+        Opção nº2 <input type="radio" name="radio-opcao" id="radio-opcao2" value="opcao2"> <br>
+        Opção nº3 <input type="radio" name="radio-opcao" id="radio-opcao3" value="opcao3"> <br>
+
+        <br><br>
+
+        <label for="esporte-fav">Esporte favorito:</label>
+        <select name="esporte-fav" id="esporte-fav">
+            <option value="Futebol">Futebol</option>
+            <option value="Basquete">Basquete</option>
+            <option value="Vôlei">Vôlei</option>
+            <option value="Natação">Natação</option>
+            <option value="Tiro livre">Tiro livre</option>
+            <option value="Fustal">Fustal</option>
+        </select>
+
+        <br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
+
+        <br><br>
+
+        <label for="email-patter">Email:</label>
+        <input type="email" name="email-patter" id="email-patter" placeholder="Digite seu email">
+
+        <br><br>
+
+        <label for="cor">Escolha uma cor</label>
+        <input type="color" name="cor" id="cor">
+
+        <br><br>
+
+        <input type="button" value="Clique aqui">
+
+        <br><br>
+
+        <label for="data-hora">Data e hora:</label>
+        <input type="datetime" name="data-hora" id="data-hora">
+
+        <br><br>
+
+        <label for="arquivo">Selecione um aquivo:</label>
+        <input type="file" name="arquivo" id="arquivo">
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
